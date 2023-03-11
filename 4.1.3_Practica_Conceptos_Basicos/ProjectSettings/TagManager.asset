@@ -47,3 +47,6 @@ TagManager:
   - name: character
     uniqueID: 839418389
     locked: 0
+  - name: rock
+    uniqueID: 3881559197
+    locked: 0
