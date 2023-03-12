@@ -6,6 +6,7 @@ Script created to give movement to the character
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharacterMovement : MonoBehaviour
 {
@@ -45,6 +46,19 @@ public class CharacterMovement : MonoBehaviour
     transform.Translate(move * speed * Time.deltaTime);
    
 }
+// Trigger to show the lose of the game 
+        void OnTriggerEnter2D(Collider2D col)
+    {
+        if(col.tag == "Enemy")
+        {
+            Debug.Log("YOU LOST!");
+            Score.CurrentScore=0;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 
-   
+
+
+        }
+
+    
+    }
 }
