@@ -4,8 +4,8 @@ public class Enemy_Movement : MonoBehaviour
 {
     public Rigidbody2D rb;
 
-    public float minSpeed = 5f;
-    public float maxSpeed = 8f;
+    public float minSpeed = 8f;
+    public float maxSpeed = 12f;
 
     float speed = 1f;
 
