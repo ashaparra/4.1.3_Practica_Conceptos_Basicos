@@ -46,14 +46,14 @@ public class CharacterMovement : MonoBehaviour
     transform.Translate(move * speed * Time.deltaTime);
    
 }
-// Trigger to show the lose of the game 
+// Trigger to show when the player lost in the game 
         void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag == "Enemy")
+        if(col.tag == "Enemy") //Tag added to all the enemies 
         {
-            Debug.Log("YOU LOST!");
-            Score.CurrentScore=0;
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            Debug.Log("YOU LOST!"); //
+            Score.CurrentScore=0; //Rest game core 
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name); //Reset game (scene) when you lose 
 
 
 

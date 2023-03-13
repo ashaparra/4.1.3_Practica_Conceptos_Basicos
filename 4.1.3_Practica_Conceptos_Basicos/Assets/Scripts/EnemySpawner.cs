@@ -10,7 +10,7 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    // Create values for the enemy to appair for the next to come
+    // Create values for the enemy to appair and for the next to come
     public float spawnDelay = .3f;
     public GameObject enemy;
     float nextSpawn = 0f;
