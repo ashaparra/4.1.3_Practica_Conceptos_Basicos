@@ -10,3 +10,8 @@
 
 ## Objective
 - The objective of the game is to go through the danger zones safely. The game is unlimited, the goal is to get as many points as possible. 
+
+
+### References
+- Smithsonian Channel. (2019, October 23). The Real Reason Ducks Sleep in a Row. [Video]. YouTube. https://www.youtube.com/watch?v=wZt6qDDx-2o
+
